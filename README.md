@@ -35,6 +35,11 @@ pip install -r requirements.txt
 
 ### (1) dataset
 
+**Download Datasets:**
+We provide the full pre-processed dataset and embeddings via Baidu Cloud:
+  https://pan.baidu.com/s/1SoGbAWN5AZwJDDewUN__CA
+  Access code: `ecj8`
+
 The model supports benchmark datasets:
 
 - **Davis**: 78 drugs × 367 proteins, with Kd values
@@ -48,7 +53,7 @@ Each sample consists of:
 
 The loader (`dataset.py`) maps sequences to token embeddings and loads pre-processed molecular/protein/pair embeddings.
 
-> 💡 Drug and protein embeddings are extracted beforehand using pre-trained models and loaded via dictionaries.
+> Drug and protein embeddings are extracted beforehand using pre-trained models and loaded via dictionaries.
 
 ### (2) main code
 
@@ -92,8 +97,7 @@ M. Hu, K. Yang, K. Xu and X. Zhou, "LMDTA: Molecular Pre-trained and Interaction
 
 If you have questions or suggestions, please contact:
 
-
- **Kuo Yang** ([kuoyang@bjtu.edu.cn](mailto:kuoyang@bjtu.edu.cn))
+**Kuo Yang** ([kuoyang@bjtu.edu.cn](mailto:kuoyang@bjtu.edu.cn))
 
 **Minjie Hu** ([minjiehu@bjtu.edu.cn](mailto:minjiehu@bjtu.edu.cn))
 
